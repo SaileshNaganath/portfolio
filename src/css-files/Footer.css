@@ -1,0 +1,56 @@
+.footer{
+color:aliceblue;
+background-color: black;
+position:relative;
+width:100vw;
+
+}
+.sm-box{
+    background:linear-gradient(271deg,#a0e9ff 30%, #a162e8 50%,#f093b0 70%, #edca85 94%)
+   
+}
+.sm-info{   
+    text-align: left;
+    position:relative;
+    top:13px;
+    left:45px;
+    color:black;
+    font-weight:bolder;
+    font-size:20px;
+}
+.sm-icon{
+    position: relative;
+    left:75%;
+    bottom:15px;
+    color:black;
+    padding:1.5rem;
+    font-size:20px;
+}
+
+.footer-container{
+    display:flex;
+    position:relative;
+    margin:auto;
+    justify-content:space-between;
+    width:100vw;
+    padding:5%;
+}
+.column1{
+    width: 20em; 
+    word-wrap:break-word;
+}
+.name{
+    font-weight:bolder;
+    font-size:large;
+}
+.link-text{
+    color:aliceblue;
+    text-decoration: none;
+}
+.end-line{
+    background-color:rgba(128, 128, 128, 0.413);
+    text-align:center;
+}
+.link-text:hover{
+    color:grey;
+}
